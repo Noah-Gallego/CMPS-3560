@@ -1,0 +1,6 @@
+a.out
+*.o
+*.out
+nga
+__pycache__/
+*.pyc
