@@ -3,6 +3,9 @@
 **California State University, Bakersfield**
 **Instructor:** Professor
 
+> [!TIP]
+> The runnable examples are organized by lab directory; `lab_2` through `lab_5` and `lab_6` document the clearest inference-system progression from chaining to certainty factors.
+
 ## Course Overview
 
 CMPS 3560 covered artificial intelligence concepts including search algorithms, knowledge representation, reasoning systems, and expert systems. Labs were completed in Python.
@@ -39,3 +42,12 @@ CMPS 3560 covered artificial intelligence concepts including search algorithms, 
 
 - **Tools:** Python 3, Linux (Odin server), Git
 - **Concepts:** Artificial intelligence, expert systems, inference engines
+
+## Coursework flow
+
+```mermaid
+flowchart LR
+    Problems[AI reasoning problems] --> Labs[Lab directories]
+    Labs --> Python[Python implementations]
+    Python --> Inference[Chaining, expert systems, and certainty factors]
+```
